@@ -56,7 +56,7 @@ jar {
         attributes "Build-Jdk": System.getProperty('java.version'),
                    "Build-Time": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
                    "Plugin-BuildDate": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ"),
-                   'Plugin-Key': 'perl',
+                   'Plugin-Key': 'communityperl',
                    'Plugin-Name': 'Perl',
                    'Plugin-Version': project.version,
                    'Plugin-Class': 'com.github.sonarperl.PerlPlugin',
